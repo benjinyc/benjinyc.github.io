@@ -1,9 +1,12 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background: #fafafa;
+    font-family: 'Source Sans Pro', 'Helvetica', 'Arial', 'Sans-Serif';
+ 
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Source Sans Pro', 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,7 +24,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Source Sans Pro','Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -43,4 +46,22 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 10%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: left;
 }

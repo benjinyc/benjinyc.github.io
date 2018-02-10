@@ -1,0 +1,2 @@
+# journal
+benji's journal

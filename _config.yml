@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 
 name: Benji Smooth, damaged meniscus
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title

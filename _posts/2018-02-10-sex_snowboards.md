@@ -5,6 +5,7 @@ date: 2018-02-10
 excerpt: There's a lot of opinions on this, as an instructor mine may surprise you
 categories: [snowboarding]
 comments: true
+# other options
 ---
 
 ## “They’re just smaller, lighter, and pink” ## 

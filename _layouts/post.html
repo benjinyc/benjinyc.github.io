@@ -44,8 +44,8 @@ comments: true
   {% endif %}
 </div>
 
-{% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
-{% endif %}     
+{% if page.comments %} 
+  {% include disqus.html %}
+{% endif %}   
 
 

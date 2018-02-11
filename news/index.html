@@ -6,9 +6,9 @@ title: Latest News
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            <br />{{ post.date | date_to_string }}
-            <div class="post-excerpt"><p>{{ post.excerpt }}</p>
+	    <li><a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+            <br /><span class="time-stamp">{{ post.date | date: "%m/%d/%Y" }}</span>
+            <div class="post-excerpt"><p>{{ post.excerpt }}</p></a>
                 <a href="{{ post.url }}" title="{{ post.title }}">…read more</a></div></li>
 	  {% endfor %}
 	</ul>

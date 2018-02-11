@@ -3,7 +3,22 @@ layout: default
 comments: true
 ---
 <h1 class="post-title">{{ page.title }}</h1>
-<div class="post-categories">Under:&nbsp;
+<div class="post-categories">
+<span class="meta">
+    
+        {{ page.date | date: "%B" }}
+
+  {% assign day = page.date | date: "%-d"  %}
+{% case day %}
+  {% when '1' or '21' or '31' %}{{ day }}st,
+  {% when '2' or '22' %}{{ day }}nd,
+  {% when '3' or '23' %}{{ day }}rd,
+  {% else %}{{ day }}th,
+{% endcase %}
+    {{ page.date | date: "%Y" }}
+
+<!--  {{ page.date | date: "%A, %B %-d, %Y" }}</span>-->
+    &nbsp; Under:&nbsp;
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -14,7 +29,7 @@ comments: true
   {% unless forloop.last %},&nbsp;{% endunless %}
   {% endfor %}
 </div>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!--<p class="meta">{{ page.date | date_to_string }}</p>-->
 
 <div class="post">
   {{ content }}
@@ -29,5 +44,6 @@ comments: true
   {% endif %}
 </div>
 
+    
 
 

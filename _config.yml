@@ -2,5 +2,4 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 name: Benji Smooth, damaged meniscus
 markdown: kramdown
-
 permalink: /blog/:year/:month/:day/:title

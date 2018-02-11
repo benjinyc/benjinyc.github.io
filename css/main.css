@@ -3,6 +3,7 @@ body {
     width: 70%;
     background: #fafafa;
     font-family: 'Source Sans Pro', 'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 400;
  
 }
 nav ul, footer ul {
@@ -25,13 +26,18 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: 'Source Sans Pro','Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: 100;
+    font-weight: 300;
 }
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.4em;
     color: #333;
     font-family: 'Lora', serif;
+}
+h1.post-title {
+font-family: 'PT Serif', serif;  
+border-bottom: 1px solid #ccc;
+margin-bottom: .7rem;
 }
 .post-excerpt {
         font-size: .5em;

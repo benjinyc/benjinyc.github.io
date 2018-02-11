@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <h1 class="post-title">{{ page.title }}</h1>
 <div class="post-categories">
@@ -45,7 +44,7 @@ comments: true
 </div>
 
 {% if page.comments %} 
-  {% include disqus.html %}
+  {% include comments.html %}
 {% endif %}   
 
 

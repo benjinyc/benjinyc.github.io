@@ -5,11 +5,4 @@ markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 
 baseurl:          /
-url:              http://benjinyc.github.io
-
-
-# Disqus Comments
-disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: benjinyc
+url:              benjinyc.github.io

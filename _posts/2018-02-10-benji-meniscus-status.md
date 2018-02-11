@@ -9,4 +9,4 @@ But President Trump can’t seem to stop antagonizing voters, especially women, 
 <!--![alt text](/images/bird.jpg "Logo Title Text 1")-->
 
 {% include image.html url="http://jekyllrb.com"
-max-width="600px" file="/images/bird.jpg" alt="Jekyll logo"  %}
+max-width="600px" file="/images/bird.jpg" alt="Jekyll logo" caption="this is a test" %}

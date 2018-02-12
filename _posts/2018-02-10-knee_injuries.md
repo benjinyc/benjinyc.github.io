@@ -3,6 +3,7 @@ layout: post
 title: "Knee Injuries"
 date: 2018-02-10
 categories: [health, snowboarding]
+comments: true
 ---
 I'd rather have amputated a finger, break both of my legs (at the same time), collapsed a lung, but instead…
 

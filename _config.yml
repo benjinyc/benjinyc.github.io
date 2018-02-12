@@ -5,4 +5,7 @@ markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 
 baseurl:          /
-url:              benjinyc.github.io
+url:              https://benjinyc.github.io
+
+disqus: 
+shortname: benjinyc

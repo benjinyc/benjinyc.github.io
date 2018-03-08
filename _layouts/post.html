@@ -18,6 +18,7 @@ comments: true
     {{ page.date | date: "%Y" }}
 
 <!--  {{ page.date | date: "%A, %B %-d, %Y" }}</span>-->
+<!--
     &nbsp; Under:&nbsp;
   {% if post %}
     {% assign categories = post.categories %}
@@ -28,6 +29,8 @@ comments: true
   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %},&nbsp;{% endunless %}
   {% endfor %}
+-->
+    </span>    
 </div>
 <!--<p class="meta">{{ page.date | date_to_string }}</p>-->
 

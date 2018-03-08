@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Men and Women’s Snowboards, Does it Matter?"
+title: "Men and Women’s Snowboards, is there a difference?"
 date: 2018-02-10
 excerpt: There's a lot of opinions on this, as an instructor mine may surprise you
 categories: [snowboarding]
 comments: true
 ---
 
-## “They’re just smaller, lighter, and pink” ## 
+>“They’re just smaller, lighter, and pink” 
 
 ^ Probably was true a decade ago. This is not the case today. Having said that, you are not going to find a lot of resources online (snowboard manufacturers, online resalers, etc) explaining the differences.
 
@@ -20,12 +20,4 @@ When choosing a snowboard shape, the three most popular criteria that get asked 
 
 
 
->Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be. Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be. Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-
-{% include image.html url="http://jekyllrb.com"
-max-width="600px" file="/images/shuffleboard.jpg" alt="Jekyll logo" caption="Royal Palms" %}
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 

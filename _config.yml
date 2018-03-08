@@ -2,9 +2,12 @@ name: Benji Smooth, damaged meniscus
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
 
-baseurl:          /
-url:              https://benjinyc.github.io
+
 
 disqus: 
 shortname: benjinyc
+
+keep_files: ['.htaccess']
+
+
 theme: jekyll-theme-cayman
